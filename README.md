@@ -4,10 +4,10 @@ This project aims to implement a relational database that manages relationships 
 ## Introduction
 The BTree-Database is designed to simulate a simple relational database system. It allows users to create tables, insert, update, and delete records, and query data using SQL-like commands. This project is an educational exercise aimed at understanding the core concepts of databases and B-trees.
 
-# B-Tree Overview
+## B-Tree Overview
 A B-tree is a self-balancing tree data structure that maintains sorted data and allows for efficient insertion, deletion, and search operations. It is widely used in database systems and file systems for indexing due to its ability to handle large amounts of data while ensuring optimal performance.
 
-# Key Properties of B-trees:
+## Key Properties of B-trees:
 - **Balanced:** B-trees remain balanced, ensuring that the time complexity for operations such as search, insert, delete, and update remains logarithmic.
 - **Node Structure:** Each node contains multiple keys and children, with the number of keys determined by the tree's order. This allows B-trees to store more data per node, reducing the number of disk reads required.
 - **Efficient Disk Access:** B-trees are optimized for systems where reading from disk is slow, as they minimize the number of disk accesses required to perform operations by grouping data within nodes.
